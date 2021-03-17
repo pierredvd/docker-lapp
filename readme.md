@@ -1,4 +1,4 @@
-# Mise en place
+## _Environnement de developpement PHP7, Node.js 10, Postgresql 11 dockerisé_
 
 ## Contruire le contener
 ```bash
@@ -8,8 +8,8 @@
 
  ## Lancer le conteneur
 ```bash 
-[Windows] docker run -it --rm --name -m 3g "dev-lapp_1.00" -p 80:80 -p 443:443 -p 40621:40621 -v "%cd%/www":/var/www -v "%cd%/config/postgres/persistant_data":/var/lib/postgresql/data dev-lapp:1.00
-[Linux] sudo docker run -it --rm --name -m 3g  "dev-lapp_1.00" -p 80:80 -p 443:443 -p 40621:40621 -v "`pwd`/www":/var/www -v "`pwd`/config/postgres/persistant_data":/var/lib/postgresql/data dev-lapp:1.00
+[Windows] docker run -it --rm --name -m 2g "dev-lapp_1.00" -p 80:80 -p 443:443 -v "%cd%/www":/var/www -v "%cd%/config/postgres/persistant_data":/var/lib/postgresql/data dev-lapp:1.00
+[Linux] sudo docker run -it --rm --name -m 2g  "dev-lapp_1.00" -p 80:80 -p 443:443 -v "`pwd`/www":/var/www -v "`pwd`/config/postgres/persistant_data":/var/lib/postgresql/data dev-lapp:1.00
 ```
 
 # Configuration initiale
@@ -96,6 +96,6 @@ Pour purger rapidement votre base de données postgres, il faudra supprimer le c
 # Administrer sa base de données
 Pour cela vous devrez disposer d'un client postgres tel que pgadmin4.
 Vous pourrez alors vous connecter avec les configurations suivantes :
-Host: localhost
-User: postgres
-Pass: (none)
+- Host: localhost
+- User: postgres
+- Pass: (none)
