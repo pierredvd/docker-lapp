@@ -1,0 +1,22 @@
+{
+    "ssl" : {
+        "key"                   : "/var/www/node/vhosts/ssl/selfsigned-key.pem",
+        "cert"                  : "/var/www/node/vhosts/ssl/selfsigned-cert.pem",
+        "requestCert"           : false,
+        "rejectUnauthorized"    : false 
+    },
+    "http"                      : 80,
+    "https"                     : 443,
+    "routePort"                 : {
+        "apache"                : 8080,
+        "node"                  : 8081
+    },
+    "vhosts": [
+        {   "serverName"        : ["node-asset", "node-asset.*"],
+            "forward"           : "node"
+        },
+        {   "serverName"        : ["*"],
+            "forward"           : "apache"
+        }
+    ]
+}

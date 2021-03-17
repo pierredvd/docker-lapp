@@ -1,0 +1,6 @@
+[
+    { "name": "VhostService"    , "script": "/vhosts/bootstrap.js" },
+    { "name": "HttpServer"      , "script": "/httpserver/bootstrap.js", "argv": [8081] },
+    { "name": "PostgresBridger" , "script": "/postgresbridger/bootstrap.js" }
+    
+]

@@ -1,0 +1,22 @@
+[Wed Mar 17 12:08:35.794422 2021] [mpm_prefork:notice] [pid 112] AH00163: Apache/2.4.38 (Debian) OpenSSL/1.1.1d configured -- resuming normal operations
+[Wed Mar 17 12:08:35.797175 2021] [core:notice] [pid 112] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Mar 17 12:12:13.095424 2021] [mpm_prefork:notice] [pid 90] AH00163: Apache/2.4.38 (Debian) OpenSSL/1.1.1d configured -- resuming normal operations
+[Wed Mar 17 12:12:13.095986 2021] [core:notice] [pid 90] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Mar 17 12:13:36.879734 2021] [mpm_prefork:notice] [pid 88] AH00163: Apache/2.4.38 (Debian) OpenSSL/1.1.1d configured -- resuming normal operations
+[Wed Mar 17 12:13:36.899395 2021] [core:notice] [pid 88] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Mar 17 12:14:36.228333 2021] [mpm_prefork:notice] [pid 89] AH00163: Apache/2.4.38 (Debian) OpenSSL/1.1.1d configured -- resuming normal operations
+[Wed Mar 17 12:14:36.228733 2021] [core:notice] [pid 89] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Mar 17 12:15:24.945250 2021] [mpm_prefork:notice] [pid 89] AH00163: Apache/2.4.38 (Debian) OpenSSL/1.1.1d configured -- resuming normal operations
+[Wed Mar 17 12:15:24.945735 2021] [core:notice] [pid 89] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Mar 17 12:20:21.740598 2021] [mpm_prefork:notice] [pid 89] AH00163: Apache/2.4.38 (Debian) OpenSSL/1.1.1d configured -- resuming normal operations
+[Wed Mar 17 12:20:21.761913 2021] [core:notice] [pid 89] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Mar 17 12:26:56.594101 2021] [mpm_prefork:notice] [pid 89] AH00163: Apache/2.4.38 (Debian) OpenSSL/1.1.1d configured -- resuming normal operations
+[Wed Mar 17 12:26:56.594497 2021] [core:notice] [pid 89] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Mar 17 12:28:24.736352 2021] [mpm_prefork:notice] [pid 89] AH00163: Apache/2.4.38 (Debian) OpenSSL/1.1.1d configured -- resuming normal operations
+[Wed Mar 17 12:28:24.736766 2021] [core:notice] [pid 89] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Mar 17 12:48:36.340694 2021] [mpm_prefork:notice] [pid 89] AH00163: Apache/2.4.38 (Debian) OpenSSL/1.1.1d configured -- resuming normal operations
+[Wed Mar 17 12:48:36.342508 2021] [core:notice] [pid 89] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Mar 17 15:03:42.480143 2021] [mpm_prefork:notice] [pid 102] AH00163: Apache/2.4.38 (Debian) OpenSSL/1.1.1d mod_wsgi/4.6.5 Python/3.7 configured -- resuming normal operations
+[Wed Mar 17 15:03:42.504732 2021] [core:notice] [pid 102] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Mar 17 15:26:31.755617 2021] [mpm_prefork:notice] [pid 99] AH00163: Apache/2.4.38 (Debian) OpenSSL/1.1.1d configured -- resuming normal operations
+[Wed Mar 17 15:26:31.755958 2021] [core:notice] [pid 99] AH00094: Command line: '/usr/sbin/apache2'
